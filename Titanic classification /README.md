@@ -1,20 +1,22 @@
-# Titanic Survival Prediction 🎯
+# 🚢 Titanic Survival Prediction API
 
-This project uses the Titanic dataset from Kaggle to predict passenger survival using a Random Forest Classifier.
+A simple **FastAPI** service that predicts survival probability on the Titanic dataset using a **RandomForestClassifier**.  
+Preprocessing and model training are encapsulated in a `Pipeline`, ensuring no data leakage.
 
-## 📊 Dataset
-- Source: [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/data)
-- Features include passenger age, sex, class, fare, and more.
+---
 
-## 🛠️ Methods
-- Preprocessing: Handled missing values, dropped irrelevant columns, one-hot encoded categorical features.
-- Model: `RandomForestClassifier` from `sklearn`.
+## 📂 Files
 
-## ✅ Accuracy
-Achieved ~82.1% accuracy on the test set using default Random Forest settings.
+- `train.py` → trains the model and saves `titanic_model.joblib`
+- `app.py` → FastAPI service exposing `/predict` and `/health`
+- `requirements.txt` → dependencies
+- `Dockerfile` → containerized deployment
+- `titanic_random_forresst.py` → (previous notebook/script you had)
 
-## 🚀 How to Run
-1. Clone this repo
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+---
+
+## ⚡ Run locally
+
+### 1. Install dependencies
+```bash
+pip install -r requirements.txt
