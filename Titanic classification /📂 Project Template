@@ -1,0 +1,29 @@
+Titanic-classification/
+│
+├── app/                     # API source code
+│   ├── __init__.py
+│   ├── main.py              # FastAPI entrypoint (was app.py)
+│   ├── models/              # ML models, Pydantic schemas
+│   │   ├── passenger.py
+│   │   └── __init__.py
+│   └── utils/               # helpers (feature engineering, logging, etc.)
+│       └── preprocessing.py
+│
+├── data/                    # (Optional) data folder
+│   └── sample_passenger.json
+│
+├── notebooks/               # Jupyter experiments
+│   └── titanic_exploration.ipynb
+│
+├── scripts/                 # Training scripts
+│   ├── train.py
+│   └── evaluate.py
+│
+├── tests/                   # Unit / integration tests
+│   └── test_api.py
+│
+├── .gitignore
+├── requirements.txt
+├── Dockerfile
+├── README.md
+└── Makefile                 # (Optional) for common commands like train/run/test
