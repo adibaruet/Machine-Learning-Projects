@@ -146,18 +146,13 @@ Per-class results for Random Forest:
 The notebook finds the CSV path by itself, so no path editing is needed.
 
 ### Option 2: Run locally
-
 ```bash
-# 1. Clone the repository
-git clone https://github.com/adibaruet/<your-repo-name>.git
-cd <your-repo-name>
-
-# 2. Install dependencies
+git clone https://github.com/adibaruet/Machine-Learning-Projects.git
+cd Machine-Learning-Projects/Heart\ Diseases\ Prediction
 pip install numpy pandas matplotlib seaborn scikit-learn joblib jupyter
-
-# 3. Start Jupyter
-jupyter notebook
+jupyter notebook heart-diseases-prediction.ipynb
 ```
+
 
 Before running locally, change these two lines in the notebook:
 
