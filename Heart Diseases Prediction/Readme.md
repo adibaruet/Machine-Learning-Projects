@@ -7,7 +7,6 @@ A machine learning project that predicts whether a patient has a **higher or low
 ![Kaggle](https://img.shields.io/badge/Platform-Kaggle-20BEFF?logo=kaggle&logoColor=white)
 ![Status](https://img.shields.io/badge/Purpose-Educational-green)
 
-> **Disclaimer:** This is a learning project. It is not a medical device and must not be used to diagnose or make health decisions.
 
 ---
 
